@@ -1,0 +1,53 @@
+---
+title: "Mathematical research"
+---
+
+*Beauty is the first test: there is no permanent place in the world for ugly mathematics. \~* *G. H. Hardy*
+
+![](/assets/images/math-01.jpg){fig-alt="Portrait of Evan M. O'Dorney" .page-portrait}
+
+I am a mathematician, specializing in number theory.
+
+## Selected publications and preprints (see my [CV](https://drive.google.com/file/d/1OTCOh2RMkQQZkgN8ZLRmB58finlVz8P6/view) for a complete list)
+
+-   [Composed varieties and reflection theorems of Ohno-Nakagawa type](https://arxiv.org/abs/2111.09784). Submitted, 59 pages, 2026.
+
+-   [Étale algebras and the Kummer theory of finite Galois modules](https://arxiv.org/abs/2506.11310). Submitted, 20 pages, 2025.
+
+-   [Galois groups of random integer matrices](https://arxiv.org/abs/2506.06463), with Theresa C. Anderson. *Mathematical Proceedings of the Cambridge Philosophical Society*, pages 1–16, 2026. Published online 12 August 2026.
+
+-   [The structure of the double discriminant](https://arxiv.org/abs/2507.16138), with Theresa C. Anderson and Adam Bertelli. Submitted, 8 pages, 2025.
+
+-   [Even-carry polynomials and cohomology of the incidence correspondence in positive characteristic](https://arxiv.org/abs/2404.04166). *Experimental Mathematics*, pages 1–14, 2025.
+
+-   [Galois groups of reciprocal polynomials and the van der Waerden–Bhargava theorem](https://arxiv.org/abs/2406.18970), with Theresa C. Anderson and Adam Bertelli. *Algebra & Number Theory*, 20(3):603–628, 2026.
+
+-   [Raney transducers and the lowest point of the $p$-Lagrange spectrum](https://arxiv.org/abs/2409.15480), with Brandon Dong, Soren Dupont, and W. Theo Waitkus. *Integers*, 25:Paper No. A47, 30 pages, 2025.
+
+-   [Section rings of $\mathbb{Q}$-divisors on genus 1 curves](https://arxiv.org/abs/2312.15128), with Michael Cerchia and Jesse Franklin. To appear in *Journal of Algebra*, 30 pages, 2024.
+
+-   [Renaissance canons with asymmetric schemes](https://arxiv.org/abs/2302.14160). *Journal of Mathematics and Music*, 18(2):228–254, 2024.
+
+-   [Harmonic analysis and statistics of the first Galois cohomology group](https://arxiv.org/abs/2102.11223), with Brandon Alberts. *Research in the Mathematical Sciences*, 8(50):Paper No. 50, 16 pages, 2021. Corrigendum: *Research in the Mathematical Sciences*, 10(3):Paper No. 31, 15 pages, 2023.
+
+-   [Rings of small rank over a Dedekind domain and their ideals](https://arxiv.org/abs/1508.02777). *Research in the Mathematical Sciences*, 3(8):Paper No. 8, 36 pages, 2016.
+
+-   [Canonical rings of $\mathbb{Q}$-divisors on $\mathbb{P}^{1}$](https://arxiv.org/abs/1407.4660). *Annals of Combinatorics*, 19(4):765–784, 2015.
+
+-   Degree asymptotics of the numerical semigroup tree. *Semigroup Forum*, 87(3):601–616, 2013.
+
+## Books
+
+-   [Reflection theorems of Ohno-Nakagawa type for quartic rings and pairs of $n$-ary quadratic forms](https://arxiv.org/abs/2204.10924). *Memoirs of the American Mathematical Society*, 309(1565):1–198, 2025.
+
+-   [The William Lowell Putnam Mathematical Competition 2001–2016: Problems, Solutions, and Commentary](https://www.amazon.com/William-Lowell-Mathematical-Competition-2001-2016/dp/1470454270), with Daniel M. Kane, Jonathan M. Kane, and Kiran S. Kedlaya. 348 pages, AMS/MAA Press, 2020.
+
+## Ph.D. thesis
+
+-   [Reflection theorems for number rings](https://arxiv.org/abs/2107.04727). Ph.D. thesis, 2021.
+
+## Code I've written
+
+-   View my code on [GitHub](https://github.com/emo916math/)
+
+-   If you use [jEdit](http://jedit.org/) to edit code, you might be interested in my syntax highlighting modes for [Magma and Macaulay2](https://github.com/emo916math/jEdit-modes).

@@ -1,0 +1,93 @@
+---
+title: "Musical compositions"
+---
+
+*The tonal language is too precise to be translated into words. \~ Felix Mendelssohn*
+
+![](/assets/images/music-01.jpg){fig-alt="Evan M. O'Dorney at the piano" .page-portrait}
+
+## I compose and improvise music in classical styles and in [pedal-matrix harmony](/music/pedal-matrix-harmony/index.qmd).
+
+In addition to the pieces featured on this page, be sure to check out my recordings on [Spotify](https://open.spotify.com/artist/3XPqKh0DbGYR5FFhMoLVPZ) and [YouTube Music](https://music.youtube.com/channel/UC2LypOVTtLl0Fp7IfSnKDXA).
+
+## Piano music
+
+97 Digits of Pi: [score](/assets/documents/97-digits-of-pi.pdf) [listen](https://drive.google.com/file/d/1dHm0QzWUZ0s3gmNeMCJcLvP7jTVQjfJp/view?usp=sharing)
+
+Meditation on the Holy Sacrament (based on the Gregorian hymn [*Pange lingua*](http://www.preces-latinae.org/thesaurus/Hymni/Pange.html)): [listen](https://drive.google.com/open?id=1ivuh0TC0gqGZkA8uuNFLdD23dK9miaCA) [watch](https://drive.google.com/open?id=1obMn7qbXFT0knbybk3uhMMg0MQyyPpu1)
+
+Sonata in C after Haydn: [listen](https://drive.google.com/open?id=1Y6R7ub0rB4EMQ36b-rcvq7ItHTtDeQPY)
+
+Sonata in E minor after Haydn: [listen](https://drive.google.com/open?id=16DUE5w7J0ZdC_mzWNutdNt9uC8cmQE2S)
+
+Mrilâžðakh (Temptation): [watch](https://drive.google.com/open?id=1xzDZw2xOKoNdduD1aQyOjagBxVZ5T5ms)
+
+Mužán Zapâri: [score](/assets/documents/muzan-zapari.pdf) (theme) [listen](https://drive.google.com/open?id=1rNthjuFy8SrW1-2ww0OaY0wUFM8nRTPx)
+
+Grand Croggon Rhapsody: [score](/assets/documents/grand-croggon-rhapsody.pdf) [listen](https://drive.google.com/file/d/1RCnOiIYQBBRvAM7iFbkKUBk2weAoJ1AN/view?usp=sharing)
+
+## Organ music
+
+-   I. O Come All Ye Faithful (Adeste Fideles): [score](/assets/documents/o-come-all-ye-faithful.pdf) [listen](https://drive.google.com/open?id=1POFW2g_CnTl8oc2Lq561b3g_VYm7e2m6)
+
+-   II\. Holy God, We Praise Thy Name (Grosser Gott): [score](/assets/documents/holy-god-we-praise-thy-name.pdf)
+
+-   III\. Faith of Our Fathers (St. Catherine): [score](/assets/documents/faith-of-our-fathers.pdf)
+
+-   IV\. Rejoice! The Lord is King: [score](/assets/documents/rejoice-the-lord-is-king.pdf)
+
+## Film music
+
+I furnished the music for a short [film](https://youtu.be/3o3WYGDDj9M) for potential applicants to the Churchill Scholarship, the scholarship that funded my 1-year postbaccalaureate study at the University of Cambridge in 2015--16.
+
+## Renaissance canons
+
+Among musical forms, the *canon* (two or more voices singing or playing the same tune, but offset in time, and often in pitch as well) is one of the most mathematical in the sense that there is an added demand, above and beyond the limits of the style in question, that can make the working out of a piece a real challenge. I write at length about the more difficult kinds of canon in a recent [paper](https://arxiv.org/abs/2302.14160) in the *Journal of Mathematics and Music.* Here are some examples with MIDI recordings.
+
+As an aid to hearing the separate voices, these recordings have been made in **stereo** sound best played through a pair of speakers or earbuds, rather than a single phone or laptop speaker.
+
+Benedictus (3-in-1 asymmetric): [score](https://arxiv.org/pdf/2302.14160#figure.16) [listen](https://github.com/emo916math/Renaissance-canons/raw/main/17-18_SC_Benedictus_novel_canon__.mp3)
+
+Salve Regina (4-in-1 inverting): [score](/assets/documents/salve-regina.pdf) [listen](https://drive.google.com/file/d/1T-DsPUppZWd9KwbXLd-MfBzvR458YBim/view?usp=drive_link)
+
+O Magnum Mysterium (8-in-4, quadruple canon for double chorus) [score](/assets/documents/o-magnum-mysterium.pdf) [listen](https://drive.google.com/file/d/1Vb3PnGJuQBxzlwEGSnfzdYNYV5tzkz06/view?usp=drive_link)
+
+## Additional vocal and choral music
+
+Memorare (original chant): [score](/assets/documents/memorare.pdf) [listen](https://drive.google.com/open?id=1B7fgsjUBrrzTtduMuO9kSQVWTxiUIu7i)
+
+Ave Verum (for mixed chorus, in Romantic style): [score](/assets/documents/ave-verum.pdf) [listen](https://drive.google.com/open?id=1tWF5uibDY8f_oART8_Va7k9fj0_IV-D-)
+
+Personent hodie (harmonization of an anonymous Christmas carol, in Renaissance style): [score](/assets/documents/personent-hodie.pdf)
+
+Domine non sum dignus (for mixed chorus, in Renaissance style): [score](/assets/documents/domine-non-sum-dignus.pdf)
+
+Hymn (part of the Harvard 2015 celebration \"Battle Hymns\"): [listen](https://drive.google.com/open?id=1Xm8LACdhytw6_JtzOy4WXaz8jtJ3Fu4s)
+
+Missa Contemplationis:
+
+-   Kyrie: [score](/assets/documents/missa-contemplationis-kyrie.pdf)
+
+-   Gloria: [score](/assets/documents/missa-contemplationis-gloria.pdf)
+
+-   Sanctus & Benedictus: [score](/assets/documents/missa-contemplationis-sanctus-benedictus.pdf)
+
+-   Agnus Dei: [score](/assets/documents/missa-contemplationis-agnus-dei.pdf)
+
+Missa «Ego Sum Panis Vivus», in Renaissance style based on Palestrina\'s [motet](https://youtu.be/2nx_oFD_3WY) of the same name:
+
+-   [score](/assets/documents/missa-ego-sum-panis-vivus.pdf)
+
+-   Premiere at Most Precious Blood of Jesus Parish, Easter 2025:
+
+    -   [Kyrie](https://drive.google.com/file/d/13_PqaWVt4HghQTeNhSgKPdv4IXa2fNTg/view?usp=sharing)
+
+    -   [Gloria](https://drive.google.com/file/d/1HlUgnG7_kTYWnX8Q8Uw6rm3zqD5KtrFu/view?usp=sharing)
+
+    -   [Sanctus](https://drive.google.com/file/d/1rK9TZ8jy_XdqqksHRyHvVo0mG4cFSGPS/view?usp=sharing) & [Benedictus](https://drive.google.com/file/d/1ndYinSaSwsLRk2i6k5zL13TiE1Z5Wj0H/view?usp=sharing)
+
+    -   [Agnus Dei](https://drive.google.com/file/d/1hF9ZEagFeEKCJXGcR3iMgdMmztqZ-wJG/view?usp=drive_link)
+
+... and a ditty my mother wrote to help memorize the Greek alphabet: [score](/assets/documents/greek-alphabet.pdf) [listen](https://drive.google.com/file/d/1p7xzHmKuMH-ccUmOXDAeX4ti2GvV-hKH/view?usp=sharing)
+
+{{< include ../_includes/music-license.qmd >}}

@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - music/index.qmd
+    - music/pedal-matrix-harmony/index.qmd
+  resources:
+    - assets/**
+    - math/index.html
+    - CNAME
+    - .nojekyll
+website:
+  title: "Evan M. O'Dorney"
+  site-url: https://odorney.com
+  description: "Mathematical research and musical compositions by Evan M. O'Dorney."
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: Math
+      - text: Music
+        menu:
+          - href: music/index.qmd
+            text: Musical compositions
+          - href: music/pedal-matrix-harmony/index.qmd
+            text: Pedal Matrix Harmony
+  page-footer:
+    center: "~ AMDG ~"
+  bread-crumbs: true
+  search: true
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    css: styles.css
+    toc: true
+    toc-title: On this page
+    toc-depth: 3
+    html-math-method: mathjax
+    link-external-newwindow: false
+    anchor-sections: true
+    smooth-scroll: true
+    lang: en
+    respect-user-color-scheme: false
