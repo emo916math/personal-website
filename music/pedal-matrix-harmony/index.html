@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Pedal Matrix Harmony – Evan M. O’Dorney</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-575a7bc93bd6b764cc9bfe95201e6485.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Evan M. O’Dorney</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Math</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-music" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Music</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-music">    
+        <li>
+    <a class="dropdown-item" href="../../music/index.html">
+ <span class="dropdown-text">Musical compositions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../music/pedal-matrix-harmony/index.html">
+ <span class="dropdown-text">Pedal Matrix Harmony</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#i.-a-brief-history-of-harmony" id="toc-i.-a-brief-history-of-harmony" class="nav-link active" data-scroll-target="#i.-a-brief-history-of-harmony">I. A Brief History of Harmony</a></li>
+  <li><a href="#ii.-pedal-matrix-harmony" id="toc-ii.-pedal-matrix-harmony" class="nav-link" data-scroll-target="#ii.-pedal-matrix-harmony">II. Pedal Matrix Harmony</a></li>
+  <li><a href="#iii.-examples-of-pedal-matrix-harmony" id="toc-iii.-examples-of-pedal-matrix-harmony" class="nav-link" data-scroll-target="#iii.-examples-of-pedal-matrix-harmony">III. Examples of Pedal Matrix Harmony</a>
+  <ul class="collapse">
+  <li><a href="#say-something-by-a-great-big-world-featuring-christina-aguilera" id="toc-say-something-by-a-great-big-world-featuring-christina-aguilera" class="nav-link" data-scroll-target="#say-something-by-a-great-big-world-featuring-christina-aguilera"><strong>Say Something</strong> by A Great Big World, featuring Christina Aguilera</a></li>
+  <li><a href="#piano-sonata-op.-90-2nd-mvt.-by-ludwig-van-beethoven" id="toc-piano-sonata-op.-90-2nd-mvt.-by-ludwig-van-beethoven" class="nav-link" data-scroll-target="#piano-sonata-op.-90-2nd-mvt.-by-ludwig-van-beethoven"><strong>Piano Sonata, op. 90, 2nd mvt.</strong> by Ludwig van Beethoven</a></li>
+  <li><a href="#piano-sonata-op.-109-3rd-mvt.-by-ludwig-van-beethoven" id="toc-piano-sonata-op.-109-3rd-mvt.-by-ludwig-van-beethoven" class="nav-link" data-scroll-target="#piano-sonata-op.-109-3rd-mvt.-by-ludwig-van-beethoven"><strong>Piano Sonata, op.</strong> <strong>109,</strong> <strong>3rd</strong> <strong>mvt.</strong> by Ludwig van Beethoven</a></li>
+  <li><a href="#transcendental-etudes-no.-11-harmonies-of-the-evening-by-franz-liszt" id="toc-transcendental-etudes-no.-11-harmonies-of-the-evening-by-franz-liszt" class="nav-link" data-scroll-target="#transcendental-etudes-no.-11-harmonies-of-the-evening-by-franz-liszt"><strong>Transcendental Etudes, No.&nbsp;11: Harmonies of the Evening,</strong> by Franz Liszt</a></li>
+  <li><a href="#cello-concerto-no.-1-in-a-minor-by-camille-saint-saëns" id="toc-cello-concerto-no.-1-in-a-minor-by-camille-saint-saëns" class="nav-link" data-scroll-target="#cello-concerto-no.-1-in-a-minor-by-camille-saint-saëns"><strong>Cello Concerto No.&nbsp;1 in A minor,</strong> by Camille Saint-Saëns</a></li>
+  <li><a href="#o-magnum-mysterium-by-morten-lauridsen" id="toc-o-magnum-mysterium-by-morten-lauridsen" class="nav-link" data-scroll-target="#o-magnum-mysterium-by-morten-lauridsen"><strong>O Magnum Mysterium</strong> by Morten Lauridsen</a></li>
+  <li><a href="#defying-gravity-from-wicked-by-stephen-schwartz" id="toc-defying-gravity-from-wicked-by-stephen-schwartz" class="nav-link" data-scroll-target="#defying-gravity-from-wicked-by-stephen-schwartz"><strong>Defying Gravity</strong> from <em>Wicked,</em> by Stephen Schwartz</a></li>
+  <li><a href="#da-pacem-domine-by-arvo-pärt" id="toc-da-pacem-domine-by-arvo-pärt" class="nav-link" data-scroll-target="#da-pacem-domine-by-arvo-pärt"><strong>Da Pacem Domine</strong> by Arvo Pärt</a></li>
+  <li><a href="#blest-are-they-by-david-haas" id="toc-blest-are-they-by-david-haas" class="nav-link" data-scroll-target="#blest-are-they-by-david-haas"><strong>Blest are They</strong> by David Haas</a></li>
+  </ul></li>
+  <li><a href="#iv.-the-future-of-pedal-matrix-harmony" id="toc-iv.-the-future-of-pedal-matrix-harmony" class="nav-link" data-scroll-target="#iv.-the-future-of-pedal-matrix-harmony">IV. The Future of Pedal Matrix Harmony</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Pedal Matrix Harmony</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="i.-a-brief-history-of-harmony" class="level2">
+<h2 class="anchored" data-anchor-id="i.-a-brief-history-of-harmony">I. A Brief History of Harmony</h2>
+<p>The development of harmony in Western music has been well documented in many places (see e.g.&nbsp;the Wikipedia articles on <a href="https://en.wikipedia.org/wiki/Chord_%28music%29">chords</a> and <a href="https://en.wikipedia.org/wiki/Cadence">cadences</a>). Here we rehash it from a viewpoint that is convenient for what follows.</p>
+<p>The overtone series</p>
+<p><img src="../../assets/scores/Overtone.svg" class="score-display img-fluid" loading="lazy" alt="The overtone series, harmonics 1 through 13"></p>
+<p>is a natural yardstick for pitch relationships that matches quite well with the scales and sonorities used in most musics of the world. The earliest polyphonic (multiple-voiced) music that has come down to us deals mainly with the first 4 notes of the overtone series, that is, with the octave, fifth, and fourth (it seems to have been In music for three or more parts, a preference gradually arose to fill in these intervals until, in the Dunstable-Dufay period (early fifteenth century), a style arose based on the triad, a 3-note chord [C-E-G or C-Eb-G].&nbsp; This is tantamount to expanding the harmony to include the first 6 notes of the overtone series—the <em>senario,</em> as Zarlino pointed out in the sixteenth century.</p>
+<p>This state of affairs held throughout the Renaissance (through 1600), after which point Monteverdi and his fellow innovators felt the need for denser chords to better express the gamut of human pain. Among the favored chords in the new Baroque style was the dominant seventh chord, built from the first 8 notes of the overtone series, and its relatives, all the seventh chords. By constant use, the seventh chord lost its edge until, with the styles of the early twentieth century—impressionism, blues, jazz—a style became possible with the seventh chord as the basic sonority.</p>
+<p>But at this time, not only the seventh chord but all the upper harmonics of the overtone series were explored: the 9th, 11th, and 13th, until we reach a “chord” that is an entire scale: GBDFACE = CDEFGAB! Adding more notes only resulted in a tonal mush. Moreover, with the eclipse of jazz by rock in the 1960’s, the listening public decisively reversed the trend of harmonic densification of the preceding centuries in favor of simple chords. Moreover, rock has gone global, overwriting and intermingling with the musics of other cultures. So have we reached the end of the history of harmony?</p>
+<p>Enter Pedal Matrix Harmony.</p>
+</section>
+<section id="ii.-pedal-matrix-harmony" class="level2">
+<h2 class="anchored" data-anchor-id="ii.-pedal-matrix-harmony">II. Pedal Matrix Harmony</h2>
+<p>“Pedal Matrix Harmony” is my term for a system of chord construction that has been on the ascendancy in the late 20th and early 21st centuries. The principle is simple but at the same time revolutionary: <strong>add notes to a root note, based not simply on their intervallic relationship to the root note, but also based on their importance in the tonality.</strong></p>
+<p>The name deserves explanation. The term “pedal” (or “pedal point”) denotes a sustained tone, almost always the tonic or dominant of the key, that is a backdrop for changing harmonies that are often dissonant with the pedal point. In the 16th century, this technique was common in organ music (hence the name) and quickly found its way to other genres. The pedal point is usually in the bass, but one can also find classical examples where it is in a middle or upper voice. In modern pedal-matrix harmony, the pedals are most commonly in inner voices, sometimes touched upon by the melody.</p>
+<p>“Matrix” is used to emphasize the interweaving of vertical coincidences (chords) with horizontal coincidences (the pedals as they are sustained from one chord to the next or drop out).</p>
+<p>The choice of pedals is to some extent malleable by the composer; but in modern use, the most common pedals remain the tonic and dominant. When attached to the six consonant triads of a diatonic key (the mainstay of pop harmony, and of Renaissance harmony before it), this technique produces the following chords:</p>
+<p><img src="../../assets/scores/6_PM_chords.svg" class="score-display img-fluid" loading="lazy" alt="Six diatonic chords with tonic and dominant pedals"></p>
+<p>In contrast to styles based on the triad or 7th chord, etc., this gives a chord with a different interval content on each scale degree. Note the following peculiarities:</p>
+<ul>
+<li><p>I is the only chord that does not gain dissonances when adding the pedals. This reinforces its tonal stability, but there are times when the bare triad is too plain for its surroundings. Then we add another note: the most popular choice is the 9th, 2̂ in the scale. This has the virtue of mimicking the structure of the IV(add9) chord, and it is also true to the overtone series, an essential for stability.</p></li>
+<li><p>IV and VI gain a 9th and a 7th respectively, forming familiar sonorities. But the 9th and 7th lack the downward tendency traditionally attached to those chord tones: instead, the dominant note wants to stay fixed, or it can be freely included in a melody heading either upward or downward.</p></li>
+<li><p>Likewise, II gains both a 7th and an 11th, both without their downward tendencies. Either added note alone is enough to sustain the Pedal Matrix style, but there are instances where both occur (see below).</p></li>
+<li><p>The III chord jeopardizes its root function with the addition of the tonic, becoming an inversion of the tonic seventh (I6/5). For this reason, III is rare in major in Pedal Matrix settings, and if the bass needs to hit the note 3̂, then the harmonic support will most often be I⁶, the first inversion of the tonic triad. Likewise, if the bass is on 7̂ (omitted from the above example because of the troublesome diminished triad), an attractive harmonic realization is G(add4)/B, the Lauridsen chord (see below).</p></li>
+<li><p>With the V (dominant) chord, the most revolutionary developments arise. Here, the chord shown in the example is a V(add4) [GBCD]. In jazz discipline, the 4th (C) above the root of a major triad is classed as an <a href="https://en.wikipedia.org/wiki/Avoid_note">avoid note</a>: even in that famously lax style, the note is used only in passing because of its strong clash with the 3rd of the chord (B). Modern composers are not so shy of this clash, but there will be situations where it is unduly harsh. In that case, the Pedal Matrix composer has the choice between V (GBD) and Vsus4 (GCD), but the relationship between these two sonorities is not as it was in previous centuries. Classically, Vsus4 resolves to V: so in an example like the following (from Pitoni’s <em>Laudate Dominum,</em> which incidentally is an example of the <em>stile antico</em>—the Renaissance style which lingered, especially in church music, for another century after 1600 when secular music had followed other trends):</p></li>
+</ul>
+<p><img src="../../assets/scores/Pitoni.svg" class="score-display img-fluid" loading="lazy" alt="Pitoni: suspension resolving in Laudate Dominum"></p>
+<p>the trained ear picks up the G-sharp as the fundamental chord tone of the penultimate chord, even though it lasts but half a beat: we would feel cheated if the soprano were to sustain the A all the way to the end.</p>
+<p>However, in the framework of Pedal Matrix Harmony, V ↔︎ Vsus4 is a free-floating progression, neither chord a resolution of the other. This is reminiscent of the change in meaning of the 6th and 6/3 chord at the dawn of the Renaissance. In medieval France the 6th was classed as a dissonance and actually so treated, so that the 6th in such an example as the following well-known piece,</p>
+<p><img src="../../assets/scores/Alle.svg" class="score-display img-fluid" loading="lazy" alt="Alle psallite cum luya: a passing sixth and seventh"></p>
+<p>is a dissonant passing tone just like the 7th. But within a couple of centuries, Dufay could write 6/3 chords in <a href="https://en.wikipedia.org/wiki/Fauxbourdon">fauxbourdon</a>,</p>
+<p><img src="../../assets/scores/Dufay.svg" class="score-display img-fluid" loading="lazy" alt="Dufay: sixth chords in fauxbourdon"></p>
+<p>with no need for the 6th to resolve in any particular direction, and Josquin played heavily with the effects of 5-6 and 6-5 motions over a held bass. It might seem inconceivable that a dissonance as strong as the suspended 4th should undergo such a change in meaning: but on inspection, our perception of this chord is culturally conditioned. If the major triad [CEG] is stable, and if the minor triad [CE♭G] formed by altering its least fundamental note by a half step is also stable, then what of the chord [CFG] formed by altering the same note in the opposite direction? In Chinese traditional music the lute (<em>pipa</em>) is tuned to a suspended chord [ADEA], and this chord, called in Chinese music theory the <em>shang, zhi,</em> or <em>yu</em> harmony according to its position in the pentatonic scale, is used as a basic consonance. Is Western music headed toward a similar aesthetic?</p>
+</section>
+<section id="iii.-examples-of-pedal-matrix-harmony" class="level2">
+<h2 class="anchored" data-anchor-id="iii.-examples-of-pedal-matrix-harmony">III. Examples of Pedal Matrix Harmony</h2>
+<p>For those looking for it, pedal-matrix harmony is on the ascendancy in a variety of genres.</p>
+<section id="say-something-by-a-great-big-world-featuring-christina-aguilera" class="level3">
+<h3 class="anchored" data-anchor-id="say-something-by-a-great-big-world-featuring-christina-aguilera"><strong>Say Something</strong> by A Great Big World, featuring Christina Aguilera</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/tV3uXVBydcI" title="YouTube Video, A Great Big World, Christina Aguilera - Say Something (Lyrics)" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=tV3uXVBydcI">Watch on YouTube</a></p>
+</div>
+<p>This 2013 hit is a simple but touching example of the pedal-matrix as a compositional device. Stubbornly, the piano reiterates the tonic (D) through a harmonic pattern including VI, IV, I, V (a <a href="https://en.wikipedia.org/wiki/I%E2%80%93V%E2%80%93vi%E2%80%93IV_progression">ubiquitous</a> progression) and (in the verse) III⁷. In the middle of the song, both tonic and dominant pedals are added, thickening the sonority. The tonic alone returns for the closing segment.</p>
+</section>
+<section id="piano-sonata-op.-90-2nd-mvt.-by-ludwig-van-beethoven" class="level3">
+<h3 class="anchored" data-anchor-id="piano-sonata-op.-90-2nd-mvt.-by-ludwig-van-beethoven"><strong>Piano Sonata, op. 90, 2nd mvt.</strong> by Ludwig van Beethoven</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/oLzQbyWfBnY" title="YouTube Video" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=oLzQbyWfBnY">Watch on YouTube</a></p>
+</div>
+<p>If we search for the roots of pedal-matrix harmony, we are led to the explorations of Beethoven, for whom pedal chords seem to be merely one of many effects turned up by his relentless search for new methods in harmony, texture, and form. Observe that the 3rd full measure of this movement has an unconventional dissonance where the B, carried over from the preceding measures, clashes sweetly against an A-major chord in first inversion. This can be viewed as a passing chord</p>
+<p><img src="../../assets/scores/Passing_763.svg" class="score-display img-fluid" loading="lazy" alt="A passing chord over a sustained B"></p>
+<p>that was also much favored by Mendelssohn, but it is more reasonable to think that Beethoven was thinking of an inner pedal here, especially in view of what he does for the second theme, where a written-out trill thickens into a double pedal of F♯ and its neighbor note G♯ sandwiched between a melody and bass in B major (seen on the still image at left before clicking the play button).</p>
+</section>
+<section id="piano-sonata-op.-109-3rd-mvt.-by-ludwig-van-beethoven" class="level3">
+<h3 class="anchored" data-anchor-id="piano-sonata-op.-109-3rd-mvt.-by-ludwig-van-beethoven"><strong>Piano Sonata, op.</strong> <strong>109,</strong> <strong>3rd</strong> <strong>mvt.</strong> by Ludwig van Beethoven</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/CdwUHy9LyZM" title="YouTube Video, Beethoven - Piano Sonata No. 30, Op. 109 (1820) {Original 1835 Fortepiano}" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=CdwUHy9LyZM">Watch on YouTube</a></p>
+</div>
+<p>In this piece we see the discoveries of the preceding one applied on a grander scale. The Aadd9/C♯ chord recurs in m. 10, but note how the sustained B pedal in the left hand also affect the interpretation of m. 9. Without it there is a clear-cut secondary dominant resolving to F♯ minor; with them, all of mm. 9-10, including the C♯ seventh, sounds like an ornamentation of a B7 chord in various inversions.</p>
+<p>Since this movement is in theme-and-variations form, we can see how Beethoven thought of this theme by the way he varied it. For the first 5 variations, he disregards the pedal and tonicizes F♯ minor when mm. 9-10 come around. But in the the last variation, the pedal comes back with a vengeance, with trills on the dominant alternately in the different voices for a dizzyingly dramatic return to the original theme.</p>
+<p>(Note that both this and the preceding sample are in E major. In my experience, the best keys for resonant pedal-matrix chords lie in the narrow range D♭–D–E♭–E, as will be seen in the examples on this page.)</p>
+</section>
+<section id="transcendental-etudes-no.-11-harmonies-of-the-evening-by-franz-liszt" class="level3">
+<h3 class="anchored" data-anchor-id="transcendental-etudes-no.-11-harmonies-of-the-evening-by-franz-liszt"><strong>Transcendental Etudes, No.&nbsp;11: Harmonies of the Evening,</strong> by Franz Liszt</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/y-aA-zX1eNE" title="YouTube Video, Liszt - Harmonies du soir (Transcendental étude No.11) (Nelson Freire, piano)" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=y-aA-zX1eNE">Watch on YouTube</a></p>
+</div>
+<p>Liszt pushed the boundaries of harmony in many directions. Woven through his Transcendental Etudes (so called because they are notoriously difficult to play) are various explorations of pedals and pedal harmony, none more pervasively than in No.&nbsp;11, which is set in the rich and peaceful key of D♭ major. The opening pits an A♭ (dominant) pedal against chords as remote as E♭♭ major, the Neapolitan sixth. The second theme in E major (<a href="https://youtu.be/y-aA-zX1eNE?t=220">3:40</a>) has both a tonic and a dominant pedal (in the bass and an inner voice respectively) for a daring chord progression including the characteristic Aadd9/E chord. The theme is reprised <a href="https://youtu.be/y-aA-zX1eNE?t=338">twice</a> <a href="https://youtu.be/y-aA-zX1eNE?t=409">more</a>; note how the texture and the location of the pedals is ingeniously shuffled each time.</p>
+</section>
+<section id="cello-concerto-no.-1-in-a-minor-by-camille-saint-saëns" class="level3">
+<h3 class="anchored" data-anchor-id="cello-concerto-no.-1-in-a-minor-by-camille-saint-saëns"><strong>Cello Concerto No.&nbsp;1 in A minor,</strong> by Camille Saint-Saëns</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/FxghagtlbXs" title="YouTube Video" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=FxghagtlbXs">Watch on YouTube</a></p>
+</div>
+<p>While he staunchly deplored the trend toward increasing license in late 19th- and early 20th-century music, Saint-Saëns was not afraid to experiment with the possibilities left open by earlier conventions. In the B♭-major middle section of this concerto (which, atypically, is in one movement), a theme emerges that, despite its sprightly rhythm, is imprisoned in a palette of just four chords <img src="../../assets/scores/SaintSaens_4_chords.svg" class="score-inline img-fluid" loading="lazy" alt="Saint-Saëns: four chords over a double pedal"> where the outer voices move in parallel 10ths while the inner voices sustain a double pedal. Notably, Saint-Saëns does <em>not</em> use the Lauridsen chord <img src="../../assets/scores/SaintSaens_4_lau_avoided.svg" class="score-inline img-fluid" loading="lazy" alt="The Lauridsen chord avoided by Saint-Saëns"> that would occur if the melody moved down one step further. Evidently he thought this chord too harsh.</p>
+<p>The theme alternates with passages that use common-tone harmony in a more conventional way. On the repeat, the solo violin playfully trills one of the pedals, then the other.</p>
+</section>
+<section id="o-magnum-mysterium-by-morten-lauridsen" class="level3">
+<h3 class="anchored" data-anchor-id="o-magnum-mysterium-by-morten-lauridsen"><strong>O Magnum Mysterium</strong> by Morten Lauridsen</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/nn5ken3RJBo" title="YouTube Video, Nordic Chamber Choir - O Magnum Mysterium (M. Lauridsen)" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=nn5ken3RJBo">Watch on YouTube</a></p>
+</div>
+<p>Lauridsen was trained in the 20th-century post-tonal sound world, but his mature compositions show him integrating dissonance into a decidedly diatonic norm. His starting point appears to be a family of personal chords (a typical 20th-century mode of self-definition), consisting of a major triad, archetypically in first inversion, with an added natural 9th and/or 11th. On IV, the 9th is preferred (to remain within the key); on V, the 11th is preferred, in both cases making (consciously or not) a pedal-matrix sonority.</p>
+<p>In this piece, his most famous work, note that at the triumphant return of the main theme (4:23), the bass brings in a low D, a pedal point used in a classical manner. (See <a href="https://youtu.be/GJrXhjt7Gwo">here</a> for the score.)</p>
+<p>[Curiously, this piece does not use any chords rooted on the 2nd degree (E) and can be performed in <a href="https://en.wikipedia.org/wiki/Just_intonation">5-limit just intonation</a>, thereby lessening the roughness of the minor 2nd dissonances. This performance seems to steer a bit in this direction. However, Lauridsen does not seem to have paid attention to this feature, and in his larger works in a similar harmonic vein (e.g.&nbsp;<em>Lux Aeterna</em>) the II and V/V chords are used liberally.]</p>
+</section>
+<section id="defying-gravity-from-wicked-by-stephen-schwartz" class="level3">
+<h3 class="anchored" data-anchor-id="defying-gravity-from-wicked-by-stephen-schwartz"><strong>Defying Gravity</strong> from <em>Wicked,</em> by Stephen Schwartz</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/MslDnwerQRA" title="YouTube Video, Idina Menzel - Defying Gravity (from LIVE: Barefoot at the Symphony)" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=MslDnwerQRA">Watch on YouTube</a></p>
+</div>
+<p>Contemporary Broadway musicals make liberal use of the chords of pedal-matrix harmony. In the verse of this piece, the ♭VII chord (common in popular music) appears with an added 9th, the tonic. In the chorus, the upper part plays a three-note ostinato B-C-G, marking 3/8 bars rhythmically offset from the 4/4 meter of the song. Now C and G are the usual tonic and dominant pedals, but what about that leading tone B? It can be heard as an appoggiatura or neighbor note to C, but when the other parts are on the dominant chord, this is contrary to the usual mode of hearing C as a suspension or neighbor note resolving down to B.</p>
+<p>On the last word (“down”), another expressive use of the pedal occurs: the voice sustains a single note through a number of harmonies.</p>
+</section>
+<section id="da-pacem-domine-by-arvo-pärt" class="level3">
+<h3 class="anchored" data-anchor-id="da-pacem-domine-by-arvo-pärt"><strong>Da Pacem Domine</strong> by Arvo Pärt</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/vA79jI9cCBE" title="YouTube Video, Arvo Pärt - Da Pacem Domine (2004)" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=vA79jI9cCBE">Watch on YouTube</a></p>
+</div>
+<p>Pärt is another example of a composer trained in the 20th-century avant-garde who came by circuitous ways to a style with marked pedal-matrix characteristics. His so-called <em>tintinnabulary</em> (i.e.&nbsp;bell-like) style pits melodic voices (here the alto and bass) with smooth lines against leaping voices (here soprano and tenor) that arpeggiate a triad, here D minor. At first this would seem to yield merely a static harmony, but the rich 10ths between alto and bass, thickened to Renaissance-style 6/3 chords at cadences, give the effect of classical harmonic progressions colored by a <em>triple</em> pedal of tonic, mediant, and dominant. Pärt habitually calls for very slow tempi, allowing the ear to fix on the varied sonorities generated by these means. The same technique is employed on a massive scale in his <a href="https://youtu.be/sJVJkaRwII8"><em>Passio</em></a> (a setting of the Passion narrative from the Gospel of John).</p>
+</section>
+<section id="blest-are-they-by-david-haas" class="level3">
+<h3 class="anchored" data-anchor-id="blest-are-they-by-david-haas"><strong>Blest are They</strong> by David Haas</h3>
+<div class="video-panel">
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/qwSkmzw8dY8" title="YouTube Video, Blest Are They (with lyrics)" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p><a href="https://www.youtube.com/watch?v=qwSkmzw8dY8">Watch on YouTube</a></p>
+</div>
+<p>From the 1960’s till today, there has been a wave of “praise and worship” songs that aim to liven church services by pop-based rhythms and use of the piano and guitar (often dubiously reading the spirit of the rock-’n-roll era into the documents of Vatican II). Most of these songs use very simple harmonies, but not “Blest are They,” which begins on an idiosyncratic chord described in various hymnals as A♭sus4, D♭/A♭, or D♭2/A♭. (For simplicity we treat the song as being in A♭ major although it appears in G in some <a href="https://hymnary.org/tune/blest_are_they_the_poor_in_spirit_haas#pagescans">hymnals</a>.) In full, the chord would be called D♭add9/A♭. It is in a highly resonant spacing with the frequency ratio 3:5:6:8:9, and resolves to a triad, also in a resonant spacing:</p>
+<p><img src="../../assets/scores/Blest1.svg" class="score-display img-fluid" loading="lazy" alt="Blest are They: opening chord and resolution"></p>
+<p>Here, in a manner analogous to the classical 6/4 chord, the F and D♭ are dissonances resolving downward. The chord recurs several times in the piece, in different inversions. At the return from the refrain to the verse, the ninth (E♭) is placed in the bass, forming a more familiar “<a href="https://music.stackexchange.com/questions/74303/is-there-a-specific-name-for-the-use-of-iv-chord-over-the-v-in-the-bass-e-g-f?noredirect=1&amp;lq=1">rock dominant</a>” chord.</p>
+<p>A more complex, but related, harmonic effect occurs in the transition between the 3rd and 4th lines of the refrain. The chord progression is as follows:</p>
+<p><img src="../../assets/scores/Blest2.svg" class="score-display img-fluid" loading="lazy" alt="Blest are They: refrain chord progression"></p>
+<p>Here the hymn books label the starred chord as Fm7/E♭, ignoring (sensibly enough) the unusual note B♭, the supertonic, in the left hand. As a tone set it is an Fm11/E♭ or a pentatonic scale or a quintal chord (A♭-E♭-B♭-F-C are all perfect fifths), but with the chosen spacing it is something of a polychord (Fm and E♭5). Thus it hearkens back to the classical use of the <a href="http://organstops.org/f/Fifth.html"><em>grosse quinte</em></a>, an organ stop that doubles the bass notes at the 5th above, so that the auditory phenomenon of the <a href="https://en.wikipedia.org/wiki/Missing_fundamental">missing fundamental</a> gives the illusion of one octave deeper, as if the chords were (as, indeed they are in some arrangements):</p>
+<p><img src="../../assets/scores/Blest3.svg" class="score-display img-fluid" loading="lazy" alt="Blest are They: the implied lower bass"></p>
+<p>If we apply the same logic to the opening chord, we see a 2nd-inversion triad (D♭/A♭) with the 5th above the bass as an added tone.</p>
+<p>(As one of the millions who have been consoled by <em>Blest are They</em> and other Haas compositions, I would like to present the above analysis to show that your impressions were not in vain, although many major hymnals <a href="https://en.wikipedia.org/wiki/David_Haas">stopped carrying his music</a> after revelations of sexual misconduct.)</p>
+</section>
+</section>
+<section id="iv.-the-future-of-pedal-matrix-harmony" class="level2">
+<h2 class="anchored" data-anchor-id="iv.-the-future-of-pedal-matrix-harmony">IV. The Future of Pedal Matrix Harmony</h2>
+<p>In my compositions (except those that rest comfortably in historical styles), I aim to integrate Pedal Matrix Harmony with the virtues of the styles that have come before it. When mixed with the principles of chord construction inherited from earlier times, Pedal Matrix Harmony yields vast possibilities, such as the following:</p>
+<ul>
+<li><p>Articulation of each of the six church modes (not counting Locrian) by using its tonic and dominant notes as pedals. Popular music surprisingly has not ventured beyond Ionian (major) with any frequency thus far, but here is a <a href="https://youtu.be/5OoxxMXLeK0">Mixolydian</a> example (based on the traditional tuning of the bagpipe) and here is a <a href="https://youtu.be/4F3X5CrPn8I">minor</a> example where the tonic, at least, appears as an added note in chords to which it is foreign.</p></li>
+<li><p>Modulation among relative modes by changing the pedals while keeping the same scale.</p></li>
+<li><p>Creating and resolving polytonality by chord progressions that venture chromatically beyond the scale(s) implied by the pedals.</p></li>
+<li><p>Phrase and piece endings on chords other than the tonic. Medieval and Renaissance composers could be capricious about what tone they ended their pieces on, but since the cadence structures are similar on each step of the scale, the root of the last sonority of a piece tends to be heard as, <em>post facto,</em> the tonic. Rock musicians have relished the rebelliously expressive technique of ending a piece on a chord other than I, and with Pedal Matrix Harmony, the notion of ending a piece on (say), the IV of C major can be defined more precisely; indeed, IV(add9) or IV(sus2) is a popular closing chord.</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/odorney\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>~ AMDG ~</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
